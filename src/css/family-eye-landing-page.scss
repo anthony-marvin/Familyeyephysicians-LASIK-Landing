@@ -552,6 +552,7 @@ body {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    width: calc(100% - 60px);
   }
   @include phone {
     display: block;
